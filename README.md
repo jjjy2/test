@@ -1,11 +1,4 @@
-## 1 Repository overview
-
-This repository is structured as follows:
-
-+ A [1_docs](./1_docs) folder, containing related documentation,includes schematic diagrams, data sheets, pictures of each example configuration, pin elicitation diagrams, and pin assignment tables.
-+ A [2_tools](./2_tools) folder, containing Development tools. Such as Flash download software, USB virtual serial port driver, and serial port terminal, etc
-+ An [example](./examples) folder, containing examples of different peripherals.
-+ A [libraries](./libraries) folder, containing HAL library for STM32H5.
+![image](https://github.com/jjjy2/test/assets/162982252/8102303a-d0d6-4268-a18c-4df0becc0a7a)
 
 
 ## 2 Board Resources
