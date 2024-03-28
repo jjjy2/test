@@ -1,4 +1,15 @@
-![image](https://github.com/jjjy2/test/assets/162982252/8102303a-d0d6-4268-a18c-4df0becc0a7a)
+[TOC]
+
+
+
+## 1 Repository overview
+
+This repository is structured as follows:
+
++ A [1_docs](./1_docs) folder, containing related documentation,includes schematic diagrams, data sheets, pictures of each example configuration, pin elicitation diagrams, and pin assignment tables.
++ A [2_tools](./2_tools) folder, containing Development tools. Such as Flash download software, USB virtual serial port driver, and serial port terminal, etc
++ An [example](./examples) folder, containing examples of different peripherals.
++ A [libraries](./libraries) folder, containing HAL library for STM32H5.
 
 
 ## 2 Board Resources
@@ -22,27 +33,28 @@ STM32H503 minimum system board selects **STM32H503CBT6** as MCU, the chip integr
 
 There are up to **35** examples provided. Before learning each example, carefully read the **README.md**, which includes a brief introduction to the example function, hardware hookup, STM32CubeIDE configuration instructions, and running phenomena. Here are all the examples.
 
-| Num                  | Example Name                      | Num  | Example Name                                  |
-| -------------------- | --------------------------------- | ---- | ---------------------- |
-| 00                   | h503_test                         | 12   | 12_RTC                                           |
-| 01                   | 01_LED                            | 13_1 | 13_1_LowPower_PVD                                |
-| 02                   | 02_KEY                            | 13_2 | 13_2_LowPower_Sleep                              |
-| 03                   | 03_EXTI                           | 13_3 | 13_3_LowPower_Stop                               |
-| 04                   | 04_UART                           | 13_4 | 13_4_LowPower_Standby                            |
-| 05                   | 05_IWDG                           | 14   | 14_DMA                                           |
-| 06                   | 06_WWDG                           | 15_1 | 15_1_ADC_Single_Channel                          |
-| 07                   | 07_BTIM                           | 15_2 | 15_2_ADC_DMA_Single_Channel                      |
-| 08_1                 | 08_1_GTIM_Interrupt               | 15_3 | 15_3_ADC_DMA_Multi_Channel                       |
-| 08_2                 | 08_2_GTIM_PWM                     | 16   | 16_ADC_Temperature                               |
-| 08_3                 | 08_3_GTIM_Capture                 | 17_1 | 17_1_DAC_Output                                  |
-| 08_4                 | 08_4_GTIM_Count                   | 17_2 | 17_2_DAC_Triangular_Wave                         |
-| 09_1                 | 09_1_ATIM_NPWM                    | 17_3 | 17_3_DAC_Sine_Wave                               |
-| 09_2                 | 09_2_ATIM_Compare                 | 18   | 18_FLASH_EEPROM                                  |
-| 09_3                 | 09_3_ATIM_CPLM_PWM                | 19   | 19_RNG                                           |
-| 09_4                 | 09_4_ATIM_PWM_IN                  | 20   | 20_MALLOC                                        |
-| 10                   | 10_TFTLCD_MCU                     | 21   | 21_IAP_Bootloader                                |
-| 11                   | 11_USMART                         | 22   | 22_USB_VSP                                       |                                 
+| Num  | Example Name        | Num  | Example Name                |
+| ---- | ------------------- | ---- | --------------------------- |
+| 00   | h503_test           | 12   | 12_RTC                      |
+| 01   | 01_LED              | 13_1 | 13_1_LowPower_PVD           |
+| 02   | 02_KEY              | 13_2 | 13_2_LowPower_Sleep         |
+| 03   | 03_EXTI             | 13_3 | 13_3_LowPower_Stop          |
+| 04   | 04_UART             | 13_4 | 13_4_LowPower_Standby       |
+| 05   | 05_IWDG             | 14   | 14_DMA                      |
+| 06   | 06_WWDG             | 15_1 | 15_1_ADC_Single_Channel     |
+| 07   | 07_BTIM             | 15_2 | 15_2_ADC_DMA_Single_Channel |
+| 08_1 | 08_1_GTIM_Interrupt | 15_3 | 15_3_ADC_DMA_Multi_Channel  |
+| 08_2 | 08_2_GTIM_PWM       | 16   | 16_ADC_Temperature          |
+| 08_3 | 08_3_GTIM_Capture   | 17_1 | 17_1_DAC_Output             |
+| 08_4 | 08_4_GTIM_Count     | 17_2 | 17_2_DAC_Triangular_Wave    |
+| 09_1 | 09_1_ATIM_NPWM      | 17_3 | 17_3_DAC_Sine_Wave          |
+| 09_2 | 09_2_ATIM_Compare   | 18   | 18_FLASH_EEPROM             |
+| 09_3 | 09_3_ATIM_CPLM_PWM  | 19   | 19_RNG                      |
+| 09_4 | 09_4_ATIM_PWM_IN    | 20   | 20_MALLOC                   |
+| 10   | 10_TFTLCD_MCU       | 21   | 21_IAP_Bootloader           |
+| 11   | 11_USMART           | 22   | 22_USB_VSP                  |
 
 ## 3 How to use STM32CubeIDE
+
 If you have not set up **STM32CubeIDE** or can't use it, you will need to do so following the [steps outlined in this tutorial](./1_docs/STM32CubeIDE Usage Guide.md).
 
