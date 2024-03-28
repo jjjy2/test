@@ -8,7 +8,7 @@ This repository is structured as follows:
 + A [libraries](./libraries) folder, containing HAL library for STM32H5.
 
 
-## 2 STM32H503CBT6 Minimum System Board Resources
+## 2 Board Resources
 
 This manual aims to introduce the **hardware and software resources** of the STM32H503 minimal system board, including the introduction of chip resources, the introduction of experimental platform hardware resources, and the supporting resource use guide. By studying this manual, the reader will have a comprehensive understanding of the resources of the STM32H503 minimal system board, which will be very helpful for subsequent program design.
 
